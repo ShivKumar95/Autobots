@@ -1,0 +1,17 @@
+# Requirements for Chat Bot app.py
+# - Versions are pinned to recent compatible releases as of 2025-09-22
+# - If you need different versions, adjust accordingly
+
+pandas==2.2.3
+streamlit==1.30.0
+python-dotenv==1.0.0
+langchain==0.0.287
+openai==1.36.0
+# Optional: if using excel reading support
+openpyxl==3.1.2
+# Some LangChain LLM wrappers may require additional packages; include common extras
+tqdm==4.66.1
+requests==2.33.0
+
+# Note: The exact LangChain and OpenAI client versions compatible with your code may vary.
+# If you have a working virtualenv, run `pip freeze` to generate an exact requirements list.
