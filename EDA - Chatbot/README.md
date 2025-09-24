@@ -64,11 +64,3 @@ Notes and troubleshooting
 ```powershell
 python -m pip freeze > requirements.txt
 ```
-
-Security
-
-Do not commit your `.env` file or API key to version control. Add `.env` to `.gitignore` if using git.
-
-Contact
-
-If you want, I can help pin versions precisely, run an import test in a fresh environment, or add a sample CSV for quick testing.
